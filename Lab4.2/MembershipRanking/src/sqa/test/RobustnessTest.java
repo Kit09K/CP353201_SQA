@@ -8,6 +8,7 @@ import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.MethodSource;
 import org.junit.jupiter.params.provider.Arguments;
+import org.junit.jupiter.params.provider.CsvFileSource;
 
 import sqa.main.Ranking;
 
@@ -20,7 +21,8 @@ class RobustnessTest {
 	}
 
 	@ParameterizedTest
-	@MethodSource("provideParamStream")
+//	@MethodSource("provideParamStream")
+	@CsvFileSource(resources = "/sqa/source/RobustData.csv",numLinesToSkip=1)
 	void testRoburstnessBoundary(int purchaseTotal, int frequency, int pointCollected, String expectedResult) {
 		String result = ranking.CalculateMembershipRank(purchaseTotal, frequency, pointCollected);
 		assertEquals(expectedResult, result);
@@ -36,8 +38,8 @@ class RobustnessTest {
 				Arguments.of(100000, 4, 500, "Gold"),
 				Arguments.of(100001, 4, 500, "Standard"),
 				Arguments.of(50000, 0, 500, "Standard"),
-				Arguments.of(50000, 1, 500, "Sliver"),
-				Arguments.of(50000, 2, 500, "Sliver"),
+				Arguments.of(50000, 1, 500, "Silver"),
+				Arguments.of(50000, 2, 500, "Silver"),
 				Arguments.of(50000, 6, 500, "Standard"),
 				Arguments.of(50000, 7, 500, "Standard"),
 				Arguments.of(50000, 8, 500, "Standard"),
