@@ -1,5 +1,0 @@
-value,choice,fromUnit,toUnit,expected
-86,temperature,fahrenheit,celsius,999.88
-7,mass,tablespoon,gram,222.23
-2,liquid,liter,quart,123.46
-0,viscosity,pascal,bar,0
