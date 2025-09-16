@@ -6,7 +6,6 @@ app = Flask(__name__)
 api = Api(app)
 swagger = Swagger(app)
 
-# Data structure for MoviePortal
 playlists = [
     {
         "playlist_id": 1,
