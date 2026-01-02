@@ -11,7 +11,7 @@
 </kw>
 <kw name="Open Registration Page">
 <kw name="Open Browser" owner="SeleniumLibrary">
-<msg time="2025-09-15T21:25:50.290413" level="INFO">Opening browser 'Chrome' to base url 'http://localhost:7272/Registration.html'.</msg>
+<msg time="2025-09-15T21:25:50.290413" level="INFO">Opening browser 'Chrome' to base url 'http://localhost:7272/Lab4/Registration.html'.</msg>
 <arg>${URL}</arg>
 <arg>${BROWSER}</arg>
 <doc>Opens a new browser instance to the optional ``url``.</doc>
@@ -49,7 +49,7 @@
 <status status="PASS" start="2025-09-15T21:25:51.791987" elapsed="0.043307"/>
 </kw>
 <kw name="Input Text" owner="SeleniumLibrary">
-<msg time="2025-09-15T21:25:51.835294" level="INFO">Typing text 'somsri@kkumail.com' into text field 'name=email'.</msg>
+<msg time="2025-09-15T21:25:51.835294" level="INFO">Typing text 'Somyod@kkumail.com' into text field 'name=email'.</msg>
 <arg>name=email</arg>
 <arg>${EMAIL}</arg>
 <doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
@@ -136,13 +136,13 @@
 <status status="PASS" start="2025-09-15T21:25:51.985201" elapsed="0.001512"/>
 </kw>
 <kw name="Log" owner="BuiltIn">
-<msg time="2025-09-15T21:25:51.986713" level="INFO">Email: somsri@kkumail.com</msg>
+<msg time="2025-09-15T21:25:51.986713" level="INFO">Email: somyod@kkumail.com</msg>
 <arg>Email: ${email}</arg>
 <doc>Logs the given message with the given level.</doc>
 <status status="PASS" start="2025-09-15T21:25:51.986713" elapsed="0.000000"/>
 </kw>
 <kw name="Log" owner="BuiltIn">
-<msg time="2025-09-15T21:25:51.986713" level="INFO">Phone: 081-001-1234</msg>
+<msg time="2025-09-15T21:25:51.986713" level="INFO">Phone: 091-001-1234</msg>
 <arg>Phone: ${phone}</arg>
 <doc>Logs the given message with the given level.</doc>
 <status status="PASS" start="2025-09-15T21:25:51.986713" elapsed="0.000000"/>
@@ -220,7 +220,7 @@
 <status status="PASS" start="2025-09-15T21:25:54.080610" elapsed="1.432793"/>
 </kw>
 <kw name="Input Text" owner="SeleniumLibrary">
-<msg time="2025-09-15T21:25:55.513403" level="INFO">Typing text 'Somsri' into text field 'name=firstname'.</msg>
+<msg time="2025-09-15T21:25:55.513403" level="INFO">Typing text 'Somyod' into text field 'name=firstname'.</msg>
 <arg>name=firstname</arg>
 <arg>${FIRST_NAME}</arg>
 <doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
@@ -239,7 +239,7 @@
 <status status="PASS" start="2025-09-15T21:25:55.588823" elapsed="0.040529"/>
 </kw>
 <kw name="Input Text" owner="SeleniumLibrary">
-<msg time="2025-09-15T21:25:55.629352" level="INFO">Typing text 'somsri@kkumail.com' into text field 'name=email'.</msg>
+<msg time="2025-09-15T21:25:55.629352" level="INFO">Typing text 'Somyod@kkumail.com' into text field 'name=email'.</msg>
 <arg>name=email</arg>
 <arg>${EMAIL}</arg>
 <doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
@@ -308,7 +308,7 @@
 <status status="PASS" start="2025-09-15T21:25:55.778345" elapsed="0.000000"/>
 </kw>
 <kw name="Log" owner="BuiltIn">
-<msg time="2025-09-15T21:25:55.778345" level="INFO">First Name: Somsri</msg>
+<msg time="2025-09-15T21:25:55.778345" level="INFO">First Name: Somyod</msg>
 <arg>First Name: ${firstname}</arg>
 <doc>Logs the given message with the given level.</doc>
 <status status="PASS" start="2025-09-15T21:25:55.778345" elapsed="0.000000"/>
@@ -326,7 +326,7 @@
 <status status="PASS" start="2025-09-15T21:25:55.778345" elapsed="0.000503"/>
 </kw>
 <kw name="Log" owner="BuiltIn">
-<msg time="2025-09-15T21:25:55.779352" level="INFO">Email: somsri@kkumail.com</msg>
+<msg time="2025-09-15T21:25:55.779352" level="INFO">Email: Somyod@kkumail.com</msg>
 <arg>Email: ${email}</arg>
 <doc>Logs the given message with the given level.</doc>
 <status status="PASS" start="2025-09-15T21:25:55.778848" elapsed="0.000504"/>
@@ -427,7 +427,7 @@
 <status status="PASS" start="2025-09-15T21:25:59.363230" elapsed="0.049132"/>
 </kw>
 <kw name="Input Text" owner="SeleniumLibrary">
-<msg time="2025-09-15T21:25:59.412362" level="INFO">Typing text 'somsri@kkumail.com' into text field 'name=email'.</msg>
+<msg time="2025-09-15T21:25:59.412362" level="INFO">Typing text 'Somyod@kkumail.com' into text field 'name=email'.</msg>
 <arg>name=email</arg>
 <arg>${EMAIL}</arg>
 <doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
@@ -514,7 +514,7 @@
 <status status="PASS" start="2025-09-15T21:25:59.555164" elapsed="0.000000"/>
 </kw>
 <kw name="Log" owner="BuiltIn">
-<msg time="2025-09-15T21:25:59.555164" level="INFO">Email: somsri@kkumail.com</msg>
+<msg time="2025-09-15T21:25:59.555164" level="INFO">Email: Somyod@kkumail.com</msg>
 <arg>Email: ${email}</arg>
 <doc>Logs the given message with the given level.</doc>
 <status status="PASS" start="2025-09-15T21:25:59.555164" elapsed="0.000000"/>
@@ -598,7 +598,7 @@
 <status status="PASS" start="2025-09-15T21:26:01.641693" elapsed="1.473650"/>
 </kw>
 <kw name="Input Text" owner="SeleniumLibrary">
-<msg time="2025-09-15T21:26:03.115343" level="INFO">Typing text 'Somsri' into text field 'name=firstname'.</msg>
+<msg time="2025-09-15T21:26:03.115343" level="INFO">Typing text 'Somyod' into text field 'name=firstname'.</msg>
 <arg>name=firstname</arg>
 <arg>${FIRST_NAME}</arg>
 <doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
@@ -686,7 +686,7 @@
 <status status="PASS" start="2025-09-15T21:26:03.380805" elapsed="0.000000"/>
 </kw>
 <kw name="Log" owner="BuiltIn">
-<msg time="2025-09-15T21:26:03.380805" level="INFO">First Name: Somsri</msg>
+<msg time="2025-09-15T21:26:03.380805" level="INFO">First Name: Somyod</msg>
 <arg>First Name: ${firstname}</arg>
 <doc>Logs the given message with the given level.</doc>
 <status status="PASS" start="2025-09-15T21:26:03.380805" elapsed="0.000000"/>
@@ -788,7 +788,7 @@
 <status status="PASS" start="2025-09-15T21:26:05.479650" elapsed="1.475978"/>
 </kw>
 <kw name="Input Text" owner="SeleniumLibrary">
-<msg time="2025-09-15T21:26:06.955628" level="INFO">Typing text 'Somsri' into text field 'name=firstname'.</msg>
+<msg time="2025-09-15T21:26:06.955628" level="INFO">Typing text 'Somyod' into text field 'name=firstname'.</msg>
 <arg>name=firstname</arg>
 <arg>${FIRST_NAME}</arg>
 <doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
@@ -809,7 +809,7 @@
 <status status="PASS" start="2025-09-15T21:26:07.058417" elapsed="0.046263"/>
 </kw>
 <kw name="Input Text" owner="SeleniumLibrary">
-<msg time="2025-09-15T21:26:07.104680" level="INFO">Typing text 'somsri@kkumail.com' into text field 'name=email'.</msg>
+<msg time="2025-09-15T21:26:07.104680" level="INFO">Typing text 'Somyod@kkumail.com' into text field 'name=email'.</msg>
 <arg>name=email</arg>
 <arg>${EMAIL}</arg>
 <doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
@@ -876,7 +876,7 @@
 <status status="PASS" start="2025-09-15T21:26:07.214322" elapsed="0.000000"/>
 </kw>
 <kw name="Log" owner="BuiltIn">
-<msg time="2025-09-15T21:26:07.214322" level="INFO">First Name: Somsri</msg>
+<msg time="2025-09-15T21:26:07.214322" level="INFO">First Name: Somyod</msg>
 <arg>First Name: ${firstname}</arg>
 <doc>Logs the given message with the given level.</doc>
 <status status="PASS" start="2025-09-15T21:26:07.214322" elapsed="0.000000"/>
@@ -894,7 +894,7 @@
 <status status="PASS" start="2025-09-15T21:26:07.214322" elapsed="0.000000"/>
 </kw>
 <kw name="Log" owner="BuiltIn">
-<msg time="2025-09-15T21:26:07.215336" level="INFO">Email: somsri@kkumail.com</msg>
+<msg time="2025-09-15T21:26:07.215336" level="INFO">Email: Somyod@kkumail.com</msg>
 <arg>Email: ${email}</arg>
 <doc>Logs the given message with the given level.</doc>
 <status status="PASS" start="2025-09-15T21:26:07.215336" elapsed="0.000000"/>
@@ -978,7 +978,7 @@
 <status status="PASS" start="2025-09-15T21:26:09.311205" elapsed="1.425331"/>
 </kw>
 <kw name="Input Text" owner="SeleniumLibrary">
-<msg time="2025-09-15T21:26:10.737543" level="INFO">Typing text 'Somsri' into text field 'name=firstname'.</msg>
+<msg time="2025-09-15T21:26:10.737543" level="INFO">Typing text 'Somyod' into text field 'name=firstname'.</msg>
 <arg>name=firstname</arg>
 <arg>${FIRST_NAME}</arg>
 <doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
@@ -999,7 +999,7 @@
 <status status="PASS" start="2025-09-15T21:26:10.836596" elapsed="0.040990"/>
 </kw>
 <kw name="Input Text" owner="SeleniumLibrary">
-<msg time="2025-09-15T21:26:10.877586" level="INFO">Typing text 'somsri@kkumail.com' into text field 'name=email'.</msg>
+<msg time="2025-09-15T21:26:10.877586" level="INFO">Typing text 'Somyod@kkumail.com' into text field 'name=email'.</msg>
 <arg>name=email</arg>
 <arg>${EMAIL}</arg>
 <doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
@@ -1068,7 +1068,7 @@
 <status status="PASS" start="2025-09-15T21:26:11.013220" elapsed="0.000000"/>
 </kw>
 <kw name="Log" owner="BuiltIn">
-<msg time="2025-09-15T21:26:11.013220" level="INFO">First Name: Somsri</msg>
+<msg time="2025-09-15T21:26:11.013220" level="INFO">First Name: Somyod</msg>
 <arg>First Name: ${firstname}</arg>
 <doc>Logs the given message with the given level.</doc>
 <status status="PASS" start="2025-09-15T21:26:11.013220" elapsed="0.000000"/>
@@ -1086,7 +1086,7 @@
 <status status="PASS" start="2025-09-15T21:26:11.013220" elapsed="0.000000"/>
 </kw>
 <kw name="Log" owner="BuiltIn">
-<msg time="2025-09-15T21:26:11.013220" level="INFO">Email: somsri@kkumail.com</msg>
+<msg time="2025-09-15T21:26:11.013220" level="INFO">Email: Somyod@kkumail.com</msg>
 <arg>Email: ${email}</arg>
 <doc>Logs the given message with the given level.</doc>
 <status status="PASS" start="2025-09-15T21:26:11.013220" elapsed="0.000000"/>
